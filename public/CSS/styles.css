@@ -37,13 +37,13 @@ body {
   display: flex;
   flex-direction: column;
   width: 90%;
-  height: auto;
   margin: auto;
+  height: auto;
   border-radius: 1em;
   background-color: white;
+  box-shadow: -1px 1px 3px 1px rgba(50, 50, 50, 0.1);
 }
 .card__img {
-  width: 100%;
   height: 200px;
   border-radius: 1em 1em 0 0;
   object-fit: cover;
@@ -157,12 +157,17 @@ header .logo {
     text-align: center;
   }
 }
+.restaurant__title {
+  padding: 30px;
+}
+
 .restaurant {
   background-color: #f2f2f2;
 }
 
-.restaurant__title {
-  padding: 30px;
+.card__container {
+  display: grid;
+  gap: 2em;
 }
 
 /*# sourceMappingURL=styles.css.map */

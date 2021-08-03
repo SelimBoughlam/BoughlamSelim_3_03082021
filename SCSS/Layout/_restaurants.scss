@@ -1,6 +1,11 @@
+.restaurant__title {
+  padding: 30px;
+}
 .restaurant {
   background-color: #f2f2f2;
 }
-.restaurant__title {
-  padding: 30px;
+
+.card__container {
+  display: grid;
+  gap: 2em;
 }
