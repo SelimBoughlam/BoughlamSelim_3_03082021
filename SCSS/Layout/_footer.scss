@@ -1,0 +1,26 @@
+footer {
+  background-color: #3f3f3f;
+  margin-top: 4em;
+}
+
+.footer__container {
+  padding: 1.5em;
+  color: white;
+  h2 {
+    font-family: $titleFontFam;
+    font-weight: normal;
+    font-size: 1.4em;
+  }
+
+  a {
+    font-size: 0.8em;
+
+    &:visited {
+      color: white;
+    }
+  }
+}
+
+.footer__icon {
+  margin-right: 6px;
+}

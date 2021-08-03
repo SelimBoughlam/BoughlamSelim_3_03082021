@@ -202,5 +202,29 @@ header .logo {
     text-align: center;
   }
 }
+footer {
+  background-color: #3f3f3f;
+  margin-top: 4em;
+}
+
+.footer__container {
+  padding: 1.5em;
+  color: white;
+}
+.footer__container h2 {
+  font-family: "shrikhand", sans-serif;
+  font-weight: normal;
+  font-size: 1.4em;
+}
+.footer__container a {
+  font-size: 0.8em;
+}
+.footer__container a:visited {
+  color: white;
+}
+
+.footer__icon {
+  margin-right: 6px;
+}
 
 /*# sourceMappingURL=styles.css.map */
