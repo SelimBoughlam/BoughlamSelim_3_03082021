@@ -1,6 +1,8 @@
 footer {
   background-color: #3f3f3f;
-  margin-top: 4em;
+  .footer__icon {
+    margin-right: 6px;
+  }
 }
 
 .footer__container {
@@ -10,10 +12,12 @@ footer {
     font-family: $titleFontFam;
     font-weight: normal;
     font-size: 1.4em;
+    margin-bottom: 0.4em;
   }
 
   a {
     font-size: 0.8em;
+    color: white;
 
     &:visited {
       color: white;
@@ -21,6 +25,16 @@ footer {
   }
 }
 
-.footer__icon {
-  margin-right: 6px;
+@media screen and (min-width: $desktop) {
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer__list {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+  }
 }
