@@ -1,0 +1,22 @@
+header {
+  padding: 0.8em;
+  height: 4em;
+  box-shadow: -1px 1px 5px 6px rgb(68 65 65 / 66%);
+  .logo {
+    font-family: $titleFontFam;
+    text-align: center;
+    font-size: 2em;
+  }
+}
+.location {
+  @extend %flexcenter;
+  background-color: rgba(215, 215, 216, 0.87);
+  height: 3em;
+  p {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  i {
+    margin-right: 1em;
+  }
+}

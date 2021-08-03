@@ -1,0 +1,138 @@
+.tutorial__item--container, .location, .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  margin: auto;
+  font-size: 1em;
+}
+
+.btn {
+  width: 250px;
+  height: 60px;
+  color: white;
+  border-radius: 50px;
+  background: #9356dc;
+  background: linear-gradient(3deg, #9356dc 11%, #ff79da 61%, #ff79da 62%);
+}
+
+header {
+  padding: 0.8em;
+  height: 4em;
+  box-shadow: -1px 1px 5px 6px rgba(68, 65, 65, 0.66);
+}
+header .logo {
+  font-family: "shrikhand", sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
+
+.location {
+  background-color: rgba(215, 215, 216, 0.87);
+  height: 3em;
+}
+.location p {
+  font-size: 1em;
+  font-weight: bold;
+}
+.location i {
+  margin-right: 1em;
+}
+
+.explore {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 0.5em;
+  padding: 2em;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.explore .explore__title {
+  font-size: 1.9em;
+}
+.explore .explore__description {
+  font-size: 1.2em;
+  opacity: 0.5;
+}
+
+.tutorial__item {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  background-color: #f2f2f2;
+  border-radius: 1.5em;
+  padding: 1em;
+  margin: 2em auto;
+  position: relative;
+}
+.tutorial__item--container {
+  margin: 0 1.2em;
+  width: 40px;
+  height: 40px;
+}
+.tutorial__item:hover {
+  background-color: rgba(241, 194, 239, 0.616);
+  transition: 0.3s;
+  cursor: default;
+}
+.tutorial__item p {
+  font-weight: bold;
+}
+.tutorial__item i {
+  opacity: 0.5;
+  font-size: 1.5em;
+}
+
+.section__title {
+  margin: 1em;
+}
+
+.tutorial__circle {
+  position: absolute;
+  padding: 5px 10px;
+  left: -10px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  background-color: #9356dc;
+  color: white;
+}
+
+@media screen and (min-width: 1000px) {
+  .tutorial__item {
+    width: 30%;
+    margin: 1em auto;
+  }
+
+  .tutorial__list {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 1300px;
+  }
+
+  .section__title {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

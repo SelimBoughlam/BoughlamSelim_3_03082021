@@ -1,0 +1,62 @@
+.tutorial__item {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  background-color: #f2f2f2;
+  border-radius: 1.5em;
+  padding: 1em;
+  margin: 2em auto;
+  position: relative;
+
+  &--container {
+    @extend %flexcenter;
+    margin: 0 1.2em;
+    width: 40px;
+    height: 40px;
+  }
+
+  &:hover {
+    background-color: rgba(241, 194, 239, 0.616);
+    transition: 0.3s;
+    cursor: default;
+  }
+
+  p {
+    font-weight: bold;
+  }
+
+  i {
+    opacity: 0.5;
+    font-size: 1.5em;
+  }
+}
+
+.section__title {
+  margin: 1em;
+}
+
+.tutorial__circle {
+  position: absolute;
+  padding: 5px 10px;
+  left: -10px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  background-color: $primaryColor;
+  color: white;
+}
+
+@media screen and (min-width: $desktop) {
+  .tutorial__item {
+    width: 30%;
+    margin: 1em auto;
+  }
+  .tutorial__list {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 1300px;
+  }
+  .section__title {
+    text-align: center;
+  }
+}

@@ -1,0 +1,14 @@
+.btn {
+  @extend %flexcenter;
+  width: 250px;
+  height: 60px;
+  color: white;
+  border-radius: 50px;
+  background: rgb(147, 86, 220);
+  background: linear-gradient(
+    3deg,
+    rgba(147, 86, 220, 1) 11%,
+    rgba(255, 121, 218, 1) 61%,
+    rgba(255, 121, 218, 1) 62%
+  );
+}

@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "sass": "^1.37.2"
+  },
+  "name": "p3-oh-my-food",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/styles.scss:public/css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

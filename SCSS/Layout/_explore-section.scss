@@ -1,0 +1,20 @@
+.explore {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 0.5em;
+  padding: 2em;
+  text-align: center;
+  background-color: #f1f1f1;
+
+  .explore__title {
+    font-size: $sectionTitle;
+  }
+
+  .explore__description {
+    font-size: 1.2em;
+    opacity: 0.5;
+  }
+}
