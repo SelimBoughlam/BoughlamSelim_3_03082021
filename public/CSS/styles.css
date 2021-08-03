@@ -184,4 +184,23 @@ header .logo {
   color: black;
 }
 
+@media screen and (min-width: 1000px) {
+  .card__container {
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: auto;
+    max-width: 1000px;
+  }
+
+  .card {
+    width: 100%;
+    margin: auto;
+  }
+
+  .restaurant__title {
+    margin: 2em;
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
