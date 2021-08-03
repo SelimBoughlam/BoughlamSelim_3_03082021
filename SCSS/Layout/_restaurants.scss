@@ -8,4 +8,10 @@
 .card__container {
   display: grid;
   gap: 2em;
+
+  a {
+    &:visited {
+      color: black;
+    }
+  }
 }

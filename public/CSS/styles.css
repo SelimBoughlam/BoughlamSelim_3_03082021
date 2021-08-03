@@ -15,12 +15,11 @@ a {
 }
 
 ul li {
-  list-style-type: none;
+  list-style: none;
 }
 
 body {
   font-family: "roboto", sans-serif;
-  margin: auto;
   font-size: 1em;
 }
 
@@ -52,7 +51,7 @@ body {
   margin: 0.8em 0 0.3em 1em;
 }
 .card__location {
-  margin-left: 1em;
+  margin-left: 1.1em;
   margin-bottom: 1em;
 }
 
@@ -168,6 +167,9 @@ header .logo {
 .card__container {
   display: grid;
   gap: 2em;
+}
+.card__container a:visited {
+  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */
