@@ -1,4 +1,4 @@
-.tutorial__item--container, .location, .loader, .btn {
+.header__page, .tutorial__item--container, .location, .loader, .btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,12 +106,13 @@ body {
   animation: spinner linear 2.5s;
 }
 
-header {
+.header {
   padding: 0.8em;
   height: 4em;
   box-shadow: -1px 1px 5px 6px rgba(68, 65, 65, 0.66);
 }
-header .logo {
+
+.logo {
   font-family: "shrikhand", sans-serif;
   text-align: center;
   font-size: 2em;
@@ -274,6 +275,30 @@ footer .footer__icon {
     flex-direction: column;
     text-align: center;
   }
+}
+.header__page {
+  position: relative;
+  padding: 2.5em;
+  height: 3em;
+}
+.header__page i {
+  position: absolute;
+  left: 1em;
+  top: 1.8em;
+  font-size: large;
+}
+
+.banner {
+  width: 100%;
+  height: 400px;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner a:visited {
+  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,12 +1,12 @@
-header {
+.header {
   padding: 0.8em;
   height: 4em;
   box-shadow: -1px 1px 5px 6px rgb(68 65 65 / 66%);
-  .logo {
-    font-family: $titleFontFam;
-    text-align: center;
-    font-size: 2em;
-  }
+}
+.logo {
+  font-family: $titleFontFam;
+  text-align: center;
+  font-size: 2em;
 }
 .location {
   @extend %flexcenter;
