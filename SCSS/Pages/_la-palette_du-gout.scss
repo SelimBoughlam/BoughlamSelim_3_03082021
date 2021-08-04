@@ -22,9 +22,24 @@
     height: 100%;
     object-fit: cover;
   }
-  a {
-    &:visited {
-      color: black;
-    }
+}
+
+.pages__container {
+  margin: auto;
+  width: 100%;
+  border-radius: 2em 2em 0 0;
+  position: relative;
+  margin-top: -5em;
+  background-color: white;
+
+  &--title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 1em;
+    font-family: $titleFontFam;
+    font-size: 1.2em;
   }
 }

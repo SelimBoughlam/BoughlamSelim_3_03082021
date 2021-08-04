@@ -297,8 +297,24 @@ footer .footer__icon {
   height: 100%;
   object-fit: cover;
 }
-.banner a:visited {
-  color: black;
+
+.pages__container {
+  margin: auto;
+  width: 100%;
+  border-radius: 2em 2em 0 0;
+  position: relative;
+  margin-top: -5em;
+  background-color: white;
+}
+.pages__container--title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 1em;
+  font-family: "shrikhand", sans-serif;
+  font-size: 1.2em;
 }
 
 /*# sourceMappingURL=styles.css.map */
