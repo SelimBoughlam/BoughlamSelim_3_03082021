@@ -6,7 +6,10 @@
 
 @keyframes spinner {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: scale(1.25);
   }
   100% {
     transform: rotate(180deg);
@@ -87,7 +90,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.9;
   position: fixed;
   z-index: 2;
   visibility: hidden;
