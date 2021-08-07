@@ -135,3 +135,39 @@
     grid-row: 3/3;
   }
 }
+
+// animation fade-in
+
+.pages__container {
+  .meal {
+    animation: fadein 0.5s linear;
+    animation-delay: 0s;
+  }
+  .f1 {
+    animation-delay: 0.1s;
+  }
+  .f2 {
+    animation-delay: 0.2s;
+  }
+  .f3 {
+    animation-delay: 0.3s;
+  }
+  .f4 {
+    animation-delay: 0.4s;
+  }
+  .f5 {
+    animation-delay: 0.5s;
+  }
+  .f6 {
+    animation-delay: 0.6s;
+  }
+  .f7 {
+    animation-delay: 0.7s;
+  }
+  .f8 {
+    animation-delay: 0.8s;
+  }
+  .f9 {
+    animation-delay: 0.9s;
+  }
+}
