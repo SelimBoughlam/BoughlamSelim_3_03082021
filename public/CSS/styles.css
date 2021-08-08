@@ -23,6 +23,41 @@
     visibility: hidden;
   }
 }
+.pages__container .meal {
+  animation: fadein 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation-delay: 0s;
+}
+.pages__container .f1 {
+  animation-delay: 0.1s;
+}
+.pages__container .f2 {
+  animation-delay: 0.2s;
+}
+.pages__container .f3 {
+  animation-delay: 0.3s;
+}
+.pages__container .f4 {
+  animation-delay: 0.4s;
+}
+.pages__container .f5 {
+  animation-delay: 0.5s;
+}
+.pages__container .f6 {
+  animation-delay: 0.6s;
+}
+.pages__container .f7 {
+  animation-delay: 0.7s;
+}
+.pages__container .f8 {
+  animation-delay: 0.8s;
+}
+.pages__container .f9 {
+  animation-delay: 0.9s;
+}
+.pages__container .f10 {
+  animation-delay: 1s;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -419,40 +454,6 @@ footer .footer__icon {
     grid-column: 2/3;
     grid-row: 3/3;
   }
-}
-.pages__container .meal {
-  animation: fadein 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation-delay: 0s;
-}
-.pages__container .f1 {
-  animation-delay: 0.1s;
-}
-.pages__container .f2 {
-  animation-delay: 0.2s;
-}
-.pages__container .f3 {
-  animation-delay: 0.3s;
-}
-.pages__container .f4 {
-  animation-delay: 0.4s;
-}
-.pages__container .f5 {
-  animation-delay: 0.5s;
-}
-.pages__container .f6 {
-  animation-delay: 0.6s;
-}
-.pages__container .f7 {
-  animation-delay: 0.7s;
-}
-.pages__container .f8 {
-  animation-delay: 0.8s;
-}
-.pages__container .f9 {
-  animation-delay: 0.9s;
-}
-.pages__container .f10 {
-  animation-delay: 1s;
 }
 
 /*# sourceMappingURL=styles.css.map */
