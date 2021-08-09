@@ -278,6 +278,24 @@ body {
   color: black;
 }
 
+.card__heart i {
+  position: absolute;
+  bottom: 1.2em;
+  right: 1em;
+}
+.card__heart:hover .card__heart--full {
+  opacity: 1;
+  transition: 0.8s;
+}
+.card__heart:hover .card__heart--empty {
+  opacity: 0;
+  transition: 0.8s;
+}
+.card__heart--full {
+  opacity: 0;
+  color: #9356dc;
+}
+
 @media screen and (min-width: 1000px) {
   .card__container {
     grid-template-columns: 1fr 1fr;
@@ -372,6 +390,25 @@ footer .footer__icon {
   padding-top: 1.5em;
   font-family: "shrikhand", sans-serif;
   font-size: 1.2em;
+}
+
+.menu__heart--empty {
+  position: absolute;
+}
+.menu__heart--full {
+  opacity: 0;
+  color: #9356dc;
+}
+.menu__heart:hover {
+  cursor: pointer;
+}
+.menu__heart:hover .menu__heart--empty {
+  opacity: 0;
+  transition: 0.8s;
+}
+.menu__heart:hover .menu__heart--full {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .full__meal {
