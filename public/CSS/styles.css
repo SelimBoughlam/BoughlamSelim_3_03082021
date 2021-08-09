@@ -399,6 +399,7 @@ footer .footer__icon {
   background-color: white;
   overflow: hidden;
   margin-bottom: 1em;
+  cursor: pointer;
 }
 .meal:hover .meal__slide {
   transform: translateX(-100%);
@@ -407,6 +408,10 @@ footer .footer__icon {
 .meal:hover .meal__price {
   margin-right: 5em;
   transition: 0.5s;
+}
+.meal:hover .fa-check-circle {
+  transform: rotate(360deg);
+  transition: 0.6s;
 }
 .meal__text {
   display: flex;
@@ -420,6 +425,9 @@ footer .footer__icon {
   font-size: 1.2em;
   font-weight: bold;
   margin-bottom: 0.5em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .meal__text--description {
   opacity: 0.8;
@@ -446,6 +454,12 @@ footer .footer__icon {
 .btn__container {
   padding-top: 2em;
   padding-bottom: 3em;
+}
+
+.fa-check-circle {
+  color: white;
+  transform: rotate(180deg);
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */
