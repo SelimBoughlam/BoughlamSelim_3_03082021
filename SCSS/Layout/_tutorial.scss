@@ -44,19 +44,3 @@
   background-color: $primaryColor;
   color: white;
 }
-
-@media screen and (min-width: $desktop) {
-  .tutorial__item {
-    width: 30%;
-    margin: 1em auto;
-  }
-  .tutorial__list {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    max-width: 1300px;
-  }
-  .section__title {
-    text-align: center;
-  }
-}

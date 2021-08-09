@@ -244,23 +244,6 @@ body {
   color: white;
 }
 
-@media screen and (min-width: 1000px) {
-  .tutorial__item {
-    width: 30%;
-    margin: 1em auto;
-  }
-
-  .tutorial__list {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    max-width: 1300px;
-  }
-
-  .section__title {
-    text-align: center;
-  }
-}
 .restaurant__title {
   padding: 30px;
 }
@@ -296,24 +279,6 @@ body {
   color: #9356dc;
 }
 
-@media screen and (min-width: 1000px) {
-  .card__container {
-    grid-template-columns: 1fr 1fr;
-    width: 70%;
-    margin: auto;
-    max-width: 1000px;
-  }
-
-  .card {
-    width: 100%;
-    margin: auto;
-  }
-
-  .restaurant__title {
-    margin: 2em;
-    text-align: center;
-  }
-}
 footer {
   background-color: #3f3f3f;
 }
@@ -340,13 +305,6 @@ footer .footer__icon {
   color: white;
 }
 
-@media screen and (min-width: 1000px) {
-  .footer__container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-}
 .header__page {
   position: relative;
   padding: 2.5em;

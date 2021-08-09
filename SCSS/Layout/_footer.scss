@@ -25,11 +25,3 @@ footer {
     }
   }
 }
-
-@media screen and (min-width: $desktop) {
-  .footer__container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-}
