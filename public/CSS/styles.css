@@ -383,7 +383,7 @@ footer .footer__icon {
 .pages__container {
   margin: auto;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1400px;
   border-radius: 2.5em 2.5em 0 0;
   position: relative;
   margin-top: -5em;
@@ -445,12 +445,11 @@ footer .footer__icon {
   left: 0;
   bottom: 0.5em;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
   .full__meal {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    margin: auto;
+    width: 30%;
   }
 }
 
@@ -468,7 +467,7 @@ footer .footer__icon {
   transition: 0.5s;
 }
 .meal:hover .meal__price {
-  margin-right: 6em;
+  margin-right: 5em;
   transition: 0.5s;
 }
 .meal:hover .fa-check-circle {
@@ -522,6 +521,13 @@ footer .footer__icon {
   color: white;
   transform: rotate(180deg);
   font-size: 25px;
+}
+
+@media screen and (min-width: 1000px) {
+  .meal__container {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

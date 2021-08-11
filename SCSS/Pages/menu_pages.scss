@@ -28,7 +28,7 @@
 .pages__container {
   margin: auto;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1400px;
   border-radius: 2.5em 2.5em 0 0;
   position: relative;
   margin-top: -5em;
@@ -92,13 +92,13 @@
       bottom: 0.5em;
     }
   }
-  @include tablets-only {
+  @include desktop-only {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    margin: auto;
+    width: 30%;
   }
 }
+
 .meal {
   display: flex;
   justify-content: space-between;
@@ -113,7 +113,7 @@
       transition: 0.5s;
     }
     .meal__price {
-      margin-right: 6em;
+      margin-right: 5em;
       transition: 0.5s;
     }
     .fa-check-circle {
@@ -173,4 +173,11 @@
   color: white;
   transform: rotate(180deg);
   font-size: 25px;
+}
+
+.meal__container {
+  @include desktop-only {
+    display: flex;
+    justify-content: space-between;
+  }
 }
