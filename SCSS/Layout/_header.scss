@@ -2,11 +2,11 @@
   padding: 0.8em;
   height: 4em;
   box-shadow: -1px 1px 5px 6px rgb(68 65 65 / 66%);
+  @extend %flexcenter;
 }
 .logo {
-  font-family: $titleFontFam;
-  text-align: center;
-  font-size: 2em;
+  width: 12em;
+  height: 3em;
 }
 
 .location {

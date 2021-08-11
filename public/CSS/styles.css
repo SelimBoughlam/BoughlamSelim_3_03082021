@@ -1,4 +1,4 @@
-.btn__container, .meal__slide, .header__page, .tutorial__item--container, .location, .loader, .btn {
+.btn__container, .meal__slide, .header__page, .tutorial__item--container, .location, .header, .loader, .btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,6 +100,11 @@ body {
   border-radius: 50px;
   background: #9356dc;
   background: linear-gradient(3deg, #9356dc 11%, #ff79da 61%, #ff79da 62%);
+  box-shadow: 1px 2px 7px -3px #000000;
+}
+.btn:hover {
+  background: linear-gradient(3deg, #9853ec 11%, #f58dd7 61%, #f886d8 62%);
+  box-shadow: 1px 2px 10px -3px #000000;
 }
 
 .card {
@@ -164,9 +169,8 @@ body {
 }
 
 .logo {
-  font-family: "shrikhand", sans-serif;
-  text-align: center;
-  font-size: 2em;
+  width: 12em;
+  height: 3em;
 }
 
 .location {
