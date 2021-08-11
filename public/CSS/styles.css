@@ -426,6 +426,7 @@ footer .footer__icon {
 
 .full__meal {
   padding-top: 1em;
+  max-width: 1000px;
   margin: 0 1em;
 }
 .full__meal h3 {
@@ -444,6 +445,14 @@ footer .footer__icon {
   left: 0;
   bottom: 0.5em;
 }
+@media screen and (min-width: 768px) {
+  .full__meal {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+  }
+}
 
 .meal {
   display: flex;
@@ -459,7 +468,7 @@ footer .footer__icon {
   transition: 0.5s;
 }
 .meal:hover .meal__price {
-  margin-right: 5em;
+  margin-right: 6em;
   transition: 0.5s;
 }
 .meal:hover .fa-check-circle {

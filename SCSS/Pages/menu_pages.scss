@@ -73,7 +73,7 @@
 
 .full__meal {
   padding-top: 1em;
-
+  max-width: 1000px;
   margin: 0 1em;
 
   h3 {
@@ -92,6 +92,12 @@
       bottom: 0.5em;
     }
   }
+  @include tablets-only {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+  }
 }
 .meal {
   display: flex;
@@ -107,7 +113,7 @@
       transition: 0.5s;
     }
     .meal__price {
-      margin-right: 5em;
+      margin-right: 6em;
       transition: 0.5s;
     }
     .fa-check-circle {
