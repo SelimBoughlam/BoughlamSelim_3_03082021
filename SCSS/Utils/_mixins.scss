@@ -1,9 +1,10 @@
+// RESPONSIVE TABLETS
 @mixin tablets-only {
   @media screen and (min-width: map-get($breakpoints , tablets )) {
     @content;
   }
 }
-
+//  RESPONSIVE DESKTOP
 @mixin desktop-only {
   @media screen and (min-width: map-get($breakpoints, desktop )) {
     @content;
