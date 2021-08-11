@@ -275,8 +275,6 @@ body {
 .card__heart--full {
   opacity: 0;
   background: #9356dc;
-  background: -webkit-linear-gradient(to right, #9356dc 0%, #ff79da 100%);
-  background: -moz-linear-gradient(to right, #9356dc 0%, #ff79da 100%);
   background: linear-gradient(to right, #9356dc 0%, #ff79da 100%);
   -webkit-background-clip: text;
   color: transparent;
@@ -360,8 +358,6 @@ footer .footer__icon {
   opacity: 0;
   opacity: 0;
   background: #9356dc;
-  background: -webkit-linear-gradient(to right, #9356dc 0%, #ff79da 100%);
-  background: -moz-linear-gradient(to right, #9356dc 0%, #ff79da 100%);
   background: linear-gradient(to right, #9356dc 0%, #ff79da 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -15,5 +15,7 @@ $sectionTitle: 1.9em;
 
 // BREAKPOINTS
 
-$tablets: 768px;
-$desktop: 1000px;
+$breakpoints: (
+  tablets: 768px,
+  desktop: 1000px,
+);
