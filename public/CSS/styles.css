@@ -405,7 +405,6 @@ footer .footer__icon {
 }
 .menu__heart--full {
   opacity: 0;
-  opacity: 0;
   background: #9356dc;
   background: linear-gradient(to right, #9356dc 0%, #ff79da 100%);
   -webkit-background-clip: text;
@@ -467,7 +466,7 @@ footer .footer__icon {
   transition: 0.5s;
 }
 .meal:hover .meal__price {
-  margin-right: 5em;
+  margin-right: 15%;
   transition: 0.5s;
 }
 .meal:hover .fa-check-circle {
