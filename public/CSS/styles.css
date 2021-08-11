@@ -227,9 +227,19 @@ body {
   opacity: 0.5;
   font-size: 1.5em;
 }
+@media screen and (min-width: 1000px) {
+  .tutorial__item {
+    margin-left: 2em;
+  }
+}
 
 .section__title {
   margin: 1em;
+}
+@media screen and (min-width: 1000px) {
+  .section__title {
+    text-align: center;
+  }
 }
 
 .tutorial__circle {
@@ -240,6 +250,17 @@ body {
   border-radius: 50px;
   background-color: #9356dc;
   color: white;
+}
+
+.tutorial__list {
+  max-width: 1000px;
+}
+@media screen and (min-width: 1000px) {
+  .tutorial__list {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
 }
 
 .restaurant__title {
@@ -277,6 +298,7 @@ body {
   background: #9356dc;
   background: linear-gradient(to right, #9356dc 0%, #ff79da 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
@@ -360,6 +382,7 @@ footer .footer__icon {
   background: #9356dc;
   background: linear-gradient(to right, #9356dc 0%, #ff79da 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .menu__heart:hover {

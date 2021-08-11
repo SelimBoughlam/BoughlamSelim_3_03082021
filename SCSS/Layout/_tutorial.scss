@@ -29,10 +29,16 @@
     opacity: 0.5;
     font-size: 1.5em;
   }
+  @include desktop-only {
+    margin-left: 2em;
+  }
 }
 
 .section__title {
   margin: 1em;
+  @include desktop-only {
+    text-align: center;
+  }
 }
 
 .tutorial__circle {
@@ -43,4 +49,13 @@
   border-radius: 50px;
   background-color: $primaryColor;
   color: white;
+}
+
+.tutorial__list {
+  max-width: 1000px;
+  @include desktop-only {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
 }

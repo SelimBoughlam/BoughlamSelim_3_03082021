@@ -55,6 +55,7 @@
     background: #9356dc;
     background: linear-gradient(to right, #9356dc 0%, #ff79da 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   &:hover {
