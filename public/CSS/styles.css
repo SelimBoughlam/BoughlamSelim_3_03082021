@@ -474,8 +474,8 @@ footer .footer__icon {
   transition: 0.5s;
 }
 .meal:hover .fa-check-circle {
-  transform: rotate(360deg);
   transition: 0.6s;
+  transform: rotate(360deg);
 }
 .meal__text {
   display: flex;
@@ -522,7 +522,6 @@ footer .footer__icon {
 
 .fa-check-circle {
   color: white;
-  transform: rotate(180deg);
   font-size: 25px;
 }
 

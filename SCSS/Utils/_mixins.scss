@@ -10,3 +10,8 @@
     @content;
   }
 }
+
+// TRANSFORM
+@mixin transforms($transform) {
+  transform: $transform;
+}

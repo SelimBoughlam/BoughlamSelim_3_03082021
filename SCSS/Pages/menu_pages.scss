@@ -108,7 +108,7 @@
   cursor: pointer;
   &:hover {
     .meal__slide {
-      transform: translateX(-100%);
+      @include transforms(translateX(-100%));
       transition: 0.5s;
     }
     .meal__price {
@@ -117,8 +117,8 @@
     }
 
     .fa-check-circle {
-      transform: rotate(360deg);
       transition: 0.6s;
+      @include transforms(rotate(360deg));
     }
   }
 
@@ -171,7 +171,6 @@
 
 .fa-check-circle {
   color: white;
-  transform: rotate(180deg);
   font-size: 25px;
 }
 
