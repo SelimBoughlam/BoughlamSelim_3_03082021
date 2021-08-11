@@ -227,7 +227,7 @@ body {
   opacity: 0.5;
   font-size: 1.5em;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   .tutorial__item {
     margin-left: 2em;
   }
@@ -236,7 +236,7 @@ body {
 .section__title {
   margin: 1em;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   .section__title {
     text-align: center;
   }
@@ -255,7 +255,7 @@ body {
 .tutorial__list {
   max-width: 1000px;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   .tutorial__list {
     display: flex;
     width: 80%;
@@ -266,7 +266,7 @@ body {
 .restaurant__title {
   padding: 30px;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   .restaurant__title {
     text-align: center;
     margin-bottom: 2em;
@@ -286,7 +286,7 @@ body {
 .card__container a:visited {
   color: black;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   .card__container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -334,7 +334,7 @@ footer .footer__icon {
   font-size: 1.4em;
   margin-bottom: 0.4em;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   .footer__container h2 {
     text-align: center;
   }
@@ -347,7 +347,7 @@ footer .footer__icon {
 .footer__container a:visited {
   color: white;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   .footer__container .footer__list {
     display: flex;
     flex-direction: column;

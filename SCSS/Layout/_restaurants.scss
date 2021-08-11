@@ -1,6 +1,6 @@
 .restaurant__title {
   padding: 30px;
-  @include desktop-only {
+  @include tablets-only {
     text-align: center;
     margin-bottom: 2em;
   }
@@ -21,7 +21,7 @@
       color: black;
     }
   }
-  @include desktop-only {
+  @include tablets-only {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     width: 80%;

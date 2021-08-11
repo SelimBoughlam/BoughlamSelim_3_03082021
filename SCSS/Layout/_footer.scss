@@ -13,7 +13,7 @@ footer {
     font-weight: normal;
     font-size: 1.4em;
     margin-bottom: 0.4em;
-    @include desktop-only {
+    @include tablets-only {
       text-align: center;
     }
   }
@@ -28,7 +28,7 @@ footer {
     }
   }
   .footer__list {
-    @include desktop-only {
+    @include tablets-only {
       display: flex;
       flex-direction: column;
       align-items: center;
