@@ -13,6 +13,9 @@ footer {
     font-weight: normal;
     font-size: 1.4em;
     margin-bottom: 0.4em;
+    @include desktop-only {
+      text-align: center;
+    }
   }
 
   a {
@@ -22,6 +25,13 @@ footer {
 
     &:visited {
       color: white;
+    }
+  }
+  .footer__list {
+    @include desktop-only {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
 }
