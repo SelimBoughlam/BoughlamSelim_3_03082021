@@ -218,6 +218,7 @@ body {
   padding: 1em;
   margin: 2em auto;
   position: relative;
+  box-shadow: 0px 9px 19px 0px #bab8bb;
 }
 .tutorial__item--container {
   margin: 0 1.2em;
